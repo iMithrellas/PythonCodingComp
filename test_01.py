@@ -12,14 +12,14 @@ for i in range(3):
 
         for i in range(currentColumn, len(a[0])):
             nums.append(a[currentRow][i])
-        print nums
+        print (nums)
         return
 
     if (currentColumn == len(a[0]) - 1):
 
         for i in range(currentRow, len(a)):
             nums.append(a[i][currentColumn])
-        print nums
+        print (nums)
         return
 
     nums.append(a[currentRow][currentColumn])
